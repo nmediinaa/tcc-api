@@ -1,0 +1,26 @@
+# Ambiente virtual
+.venv/
+env/
+venv/
+
+# Cache do Python
+__pycache__/
+*/__pycache__/*
+*/*/__pycache__/*
+*.pyc
+
+# Instância e configurações locais (Flask)
+instance/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribuição e empacotamento
+dist/
+build/
+*.egg-info/
+
+# Variáveis de ambiente (Segurança)
+.env
